@@ -18,7 +18,7 @@ function App() {
     {
       title: "New TV",
       amount: 350.87,
-      date: new Date(2021, 7, 28),
+      date: new Date(2021, 7, 29),
     },
     {
       title: "New Desk (Wooden)",
@@ -27,7 +27,7 @@ function App() {
     },
   ];
   const addExpenseHandler = (expense) => {
-    console.log("in app.js");
+    console.log("inapp.js");
     console.log(expense);
   };
   return (
